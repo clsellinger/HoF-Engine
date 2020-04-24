@@ -1,0 +1,14 @@
+.card {
+    display: grid;
+    width: 25%;
+    height: 30vh;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr, 1fr;
+    border: 2px solid black;
+        
+}
+
+li {
+    list-style: none;
+    
+}

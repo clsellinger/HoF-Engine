@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HoF Engine</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+
+    <body>
+        <script>displayscores()</script>
+
+        <button onclick=drawACard()><h1>Draw a Card</h1></button>
+        
+    
+        <h1>Your current card:</h1>
+        <div class="card">  
+        <ul>
+            <li><h2>Your Group Score</h2></li>
+            <li><h2 id=groupScore></h2></li>
+            <li><h2>Your Personal Score</h2></li>            
+            <li><h2 id=personalScore></h2></li>
+        </ul>
+        
+           </div>
+       
+           <h1>Current Group Score is </h1><h1 id="currentGroupScore"></h1>
+           <h1>Current Personal Score is </h1><h1 id="currentPersonalScore"></h1>
+           
+        <script type="text/javascript" src="./functions.js"></script>
+    </body>
+</html>
